@@ -15,6 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/BRUHItsABunny/py-android-utils/",
     packages=find_packages(),
+    package_data={"androidutils": ["py.typed", "android_utils_pb2.pyi"]},
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.7",
